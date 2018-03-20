@@ -1,8 +1,8 @@
 """linear regression, either simple lest-squares or chi^2,
 and simple sin-wave and periodogram noise fitters"""
 
-mydir=os.getcwd()
 import os
+mydir=os.getcwd()
 os.chdir('/net/ibert/scratch/durant/ScientificPython-2.6/build/lib.linux-i686-2.4')
 from Scientific.Functions.LeastSquares import leastSquaresFit as LS
 from Numeric import zeros,sin,pi
